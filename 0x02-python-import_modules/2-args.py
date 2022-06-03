@@ -23,3 +23,4 @@ for argument in sys.argv:
     if i != 0:
         print("{:d}: {:s}".format(i, argument))
     i += 1)
+
