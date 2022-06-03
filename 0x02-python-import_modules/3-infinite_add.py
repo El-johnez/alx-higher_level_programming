@@ -1,7 +1,12 @@
 #!/usr/bin/python3
-if __name__ == "__main__":
-    from sys import argv
-    add = 0
-    for s in argv[1:]:
-        add += int(s)
-    print("{:d}".format(add))
+from sys import argv
+
+if __name__ != '__main__':
+    exit()
+
+sum = 0
+
+for i, argument in enumerate(argv[1:]):
+    sum += int(argument)
+print(f"{sum}"))
+
